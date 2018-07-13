@@ -1,0 +1,60 @@
+.container {
+    border: 1px solid black;
+    width: fit-content;
+    margin-top: 150px;
+}
+
+body {
+    background-image: url("../images/crystal-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.col-lg-6 {
+    border: 1px solid red;
+    width: 0 auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.col-lg-12 {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 { 
+    border: 1px solid red;
+    font-size: 24px;
+    text-align: center;
+}
+
+.game-header {
+    background: black;
+    color: white;
+}
+
+.game-buttons {
+    background: black;
+    color: white;
+}
+
+.pscore {
+    background: black;
+    color: white;
+}
+
+.score {
+    background: black;
+    color: yellow;
+}
+
+.WL { 
+    background: black;
+    color: red;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
