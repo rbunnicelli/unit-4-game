@@ -29,22 +29,12 @@ h1 {
     text-align: center;
 }
 
-.game-header {
+.game-header, .game-buttons, .pscore {
     background: black;
     color: white;
 }
 
-.game-buttons {
-    background: black;
-    color: white;
-}
-
-.pscore {
-    background: black;
-    color: white;
-}
-
-.score {
+.number {
     background: black;
     color: yellow;
 }
@@ -56,5 +46,23 @@ h1 {
 
 p {
     font-size: 18px;
+    color: white;
+}
+
+.gemImage {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.gems {
+    text-align: center;
+}
+
+#playerScore, #wins, #losses {
+    color: white;
+    font-size: 24 px;
+}
+
+#randomNum {
     color: white;
 }
